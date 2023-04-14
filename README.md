@@ -1,8 +1,11 @@
 # Melanoma-detection-using-CNN in Tensorflow
 
-Problem statement: To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+## Problem statement: 
+To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
-The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant. The data set contains the following diseases:
+The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+
+## The data set contains the following diseases:
 
 a. Actinic keratosis
 b. Basal cell carcinoma
@@ -14,7 +17,7 @@ g. Seborrheic keratosis
 h. Squamous cell carcinoma
 i. Vascular lesion
 
-Project Pipeline
+## Project Pipeline
 
 
 a. Data Reading/Data Understanding: Defining the path for train and test images
@@ -56,3 +59,18 @@ r. Choose an appropriate optimiser and loss function for model training
 s. Train the model for ~30 epochs
 
 t. Write your findings after the model fit, see if the issues are resolved or not?
+
+
+## Conclusions
+
+The problem of overfitting and underfitting was solved and the model was well trained for predictions. Data augmentation, outliers, and class equalization were found to be useful in improving model performance in this case.
+
+## Technologies Used
+
+a. Keras
+
+b. TensorFlow
+
+c. Python 3
+
+d. Pandas, Numpy, Matplotlib, Augmentor
